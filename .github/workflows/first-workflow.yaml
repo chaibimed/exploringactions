@@ -36,4 +36,4 @@ jobs:
        - name: Display dotnet version
          run: dotnet --version
        
-       - name: echo "This job's status is ${{ job.status }}"
+       - run: echo "This job's status is ${{ job.status }}"
